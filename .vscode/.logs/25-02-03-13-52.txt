@@ -1,0 +1,26 @@
+25-02-03 13:52 Session started
+----------------------------------------
+13:59:10 Document switched to: c:\Users\alushi.maljos\AppData\Roaming\Code\User\profiles\47b121a9\settings.json
+----------------------------------------
+13:59:32 040:000 > ,
+"files.associations": {
+    "*.xaml": "xml"
+},
+"xml.fileAssociations": [
+    {
+        "pattern": "**/*.xaml",
+        "systemId": "https://raw.githubusercontent.com/karye/xamelot/refs/heads/master/syntax/xaml.xsd"
+    }
+],
+14:00:46 025:005 > ,
+"files.associations": {
+    "*.xaml": "xml"
+},
+"xml.fileAssociations": [
+    {
+        "pattern": "**/*.xaml",
+        "systemId": "https://raw.githubusercontent.com/karye/xamelot/refs/heads/master/syntax/xaml.xsd"
+    }
+],
+14:04:08 Document switched to: c:\Users\alushi.maljos\github-classroom\TE23E-PRRPRR01\prog1-wpf-TE23e-Maljos-Alushi\.vscode\csharp.code-snippets
+----------------------------------------
