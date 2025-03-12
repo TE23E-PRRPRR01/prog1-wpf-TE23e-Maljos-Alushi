@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JulKlappLista", "JulKlappLista.csproj", "{42917BB9-6FFF-9A66-8A3D-50BA517B2C4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42917BB9-6FFF-9A66-8A3D-50BA517B2C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42917BB9-6FFF-9A66-8A3D-50BA517B2C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42917BB9-6FFF-9A66-8A3D-50BA517B2C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42917BB9-6FFF-9A66-8A3D-50BA517B2C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3704E00-296C-4DF8-A936-8D622142929A}
+	EndGlobalSection
+EndGlobal
