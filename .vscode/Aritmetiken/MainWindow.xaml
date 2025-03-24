@@ -1,0 +1,29 @@
+﻿<Window x:Class="Aritmetiken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aritmetiken"
+        mc:Ignorable="d"
+        Title="Aritmetiken App" Height="450" Width="800"
+        SizeToContent="WidthAndHeight">
+<StackPanel>
+<Label FontWeight="Bold" FontSize="14">Aritmetiken</Label>
+
+<Label FontWeight="Bold" FontSize="10">Tal 1:</Label>
+<TextBox Name="txbTal1"  ></TextBox>
+
+<Label FontWeight="Bold" FontSize="10">Operator (+.-.*,/):</Label>
+<TextBox Name="txbOperator" ></TextBox>
+
+<Label FontWeight="Bold" FontSize="10">Tal 2:</Label>
+<TextBox Name="txbTal2" ></TextBox>
+
+<Button Click="KlickBeräkna" Margin="5" Padding="10" FontWeight="Bold" >Beräkna</Button>
+<Label Name="lblResultat" FontWeight="Bold"></Label>
+
+
+
+
+</StackPanel>
+</Window>
