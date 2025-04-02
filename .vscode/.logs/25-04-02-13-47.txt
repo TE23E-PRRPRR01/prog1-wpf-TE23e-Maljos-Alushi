@@ -1,0 +1,13 @@
+25-04-02 13:47 Session started
+----------------------------------------
+13:47:30 Document switched to: extension-output-ms-dotnettools.vscode-dotnet-runtime-#1-.NET Install Tool
+----------------------------------------
+13:47:30 000:000 > ms-dotnettools.csdevkit requested to download the .NET ASP.NET Runtime.
+Downloading .NET version(s) 9.0.3~x64~aspnetcore ...
+
+13:47:31 001:052 > .
+13:47:32 001:053 > ..
+13:47:33 001:054 > ...
+13:47:34 001:055 > ....
+13:47:35 001:056 > Done!
+.NET 9.0.3~x64~aspnetcore executable path: c:\Users\alushi.maljos\AppData\Roaming\Code\User\globalStorage\ms-dotnettools.vscode-dotnet-runtime\.dotnet\9.0.3~x64~aspnetcore\dotnet.exe
