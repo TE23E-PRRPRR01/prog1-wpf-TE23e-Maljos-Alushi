@@ -1,0 +1,29 @@
+﻿<Window x:Class="ValutaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValutaApp"
+        mc:Ignorable="d"
+        Title="ValutaApp" Height="450" Width="800" Background="#EEE"
+        SizeToContent="WidthAndHeight">
+    <StackPanel Margin="10">
+        <Label FontSize="24">Valutaomvandlare</Label>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Label Width="100">Belopp (SEK):</Label>
+            <TextBox Name="txbBelopp" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10">
+            <Button Width="60" Height="30" Margin="5" Click="KlickUsd">USD</Button>
+            <Button Width="60" Height="30" Margin="5" Click="KlickEur">EUR</Button>
+            <Button Width="60" Height="30" Margin="5" Click="KlickGbp">GBP</Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Width="100">Resultat:</Label>
+            <TextBox Name="txbResultat" Width="200" IsReadOnly="True"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
