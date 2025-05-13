@@ -1,0 +1,36 @@
+﻿<Window x:Class="FoodApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        SizeToContent="WidthAndHeight" Background="#EEE">
+        <StackPanel Margin="10">
+            <Label Margin="5" FontSize="30">Matreceptsamling</Label>
+            <StackPanel Orientation="Horizontal" Margin="5">
+            <Label Width="150">Maträttens namn:</Label>
+            <TextBox Name="txbNamn" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+            <Label Width="150">Huvudingrediens: </Label>
+            <TextBox Name="txbIngrediens" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+            <Label Width="150">Tillagningstid (min): </Label>
+            <TextBox Name="txbTid" Width="200"/>
+            </StackPanel>
+            <Button Margin="5" Padding="5" Click="KlickVisa">Visa recept</Button>
+            <StackPanel Orientation="Horizontal" Margin="5">
+            <Label Width="150">Resultat: </Label>
+            <TextBox Name="txbResultat" Width="200" IsReadOnly="True" />
+            </StackPanel>
+            <Button Margin="5" Padding="5" Click="KlickRensa">Rensa</Button>
+            <Button Margin="5" Padding="5" Click="KlickVisaLista">Lägg till Recept</Button>
+            <StackPanel Orientation="Horizontal" Margin="5"> 
+            <Label>Antal Recemt:</Label>
+            <TextBox Name="txbLista"></TextBox>
+            </StackPanel> 
+         </StackPanel>
+</Window>
